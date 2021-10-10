@@ -1,0 +1,56 @@
+.headerUser {
+    width: 192px;
+    height: 108px;
+    position: relative;
+    left: 1083px;
+    top: 8px;
+    background: #FFFFFF;
+    box-shadow: 0 10px 30px rgba(33, 33, 33, 0.1);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.block {
+    width: 171px;
+    height: 19px;
+    flex: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 17px 0 18px 21px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.block:hover {
+    background: #F0EFFF;
+}
+
+.block div {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #121212;
+}
+
+.profileImg {
+    width: 14px;
+    height: 16px;
+    margin-right: 13px;
+    margin-top: 2px;
+}
+
+.logOutImg {
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+    margin-top: 2px;
+}
+
+

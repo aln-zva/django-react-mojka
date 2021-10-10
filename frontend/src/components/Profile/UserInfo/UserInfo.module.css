@@ -1,0 +1,214 @@
+.userInfo {
+    flex: none;
+    width: 445px;
+    background-color: #F2F3F8;
+}
+
+.name {
+    outline: none;
+    border-style: none;
+    position: absolute;
+    width: 228px;
+    height: 27px;
+    top: 264px;
+    left: 108px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    background-color: #F2F3F8;
+
+    color: #121212;
+}
+
+.name::placeholder {
+    color: #121212;
+}
+
+.editButton {
+    position: absolute;
+    width: 381px;
+    height: 48px;
+    left: 32px;
+    top: 315px;
+    background: #E7E9F3;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.editButton img {
+    position: absolute;
+    left: 19.42%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.editButtonText {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ABB1C2;
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    left: 106px;
+    bottom: 13px
+}
+
+.enabledEdit {
+    position: absolute;
+    left: 32px;
+    top: 315px;
+    width: 376px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.enabledEditButtonClose {
+    width: 178px;
+    flex: none;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #ABB1C2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    background: #E6E9F3;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.enabledEditButtonClose img {
+    margin-right: 14px;
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+}
+
+.enabledEditButtonAccept {
+    cursor: pointer;
+    width: 178px;
+    flex: none;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FCFCFC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    background: #504AFC;
+    border-radius: 5px;
+    border: none;
+}
+
+.enabledEditButtonAccept img {
+    margin-right: 14px;
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+}
+
+.editButton:hover {
+    background: #F0EFFF;
+    border: 2px solid #8F82FF;
+    box-sizing: border-box;
+}
+
+.userProfileInfo {
+    position: absolute;
+    top: 393px;
+    left: 32px;
+    width: 381px;
+    height: 138px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.eventCalendarInfo {
+    position: absolute;
+    width: 245px;
+    height: 33px;
+    left: 32px;
+    top: 557px;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #121212;
+}
+
+.userProfileInfo input[type="text"] {
+    outline: none;
+    border: none;
+    /*background-color: #F2F3F8;*/
+    font-family:" Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /*flex: none;*/
+    margin-left: -2px;
+    background: #FCFCFC;
+    width: 335px;
+    height: 38px;
+    padding: 0 0 0 8px;
+    /*margin-top: 4px;*/
+}
+
+.select {
+    /*margin-left: -2px;*/
+    background: #FCFCFC;
+    width: 343px;
+    height: 120px;
+    outline: none;
+    border: none;
+    font-family:" Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 4px;
+    overflow-y: auto;
+    flex: none;
+}
+
+.userProfileInfo option {
+    border: none;
+}
+
+.userProfileInfo option:hover {
+    background: #F0EFFF;
+}
+
+.selectDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 373px;
+}
+
+.selectDiv img {
+    flex: none;
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+}

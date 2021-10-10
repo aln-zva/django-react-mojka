@@ -1,0 +1,248 @@
+.calendarContainer {
+    width: 408px;
+    height: 273px;
+    position: absolute;
+    top: 51px;
+    left: 8px;
+}
+
+.main {
+    position: absolute;
+    width: 408px;
+    left: 0;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    right: 8px;
+    background: #FCFCFC;
+}
+.calendar {
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*margin-top: -225px;*/
+    /*margin-left: -195px;*/
+    width: 196px;
+    height: 230px;
+    /*padding: 15px;*/
+    /*box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.4);*/
+    overflow: hidden;
+    background: #FCFCFC;
+    flex: none;
+}
+
+.nav {
+    /*margin: -15px -15px 15px;*/
+    /*padding: 0 15px;*/
+    background-color: #FCFCFC;
+    color: #504AFC;
+    height: 14px;
+    position: relative;
+    top: 7px;
+}
+
+.nav a {
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    font-size: 14px;
+    line-height: 1;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    display: inline-block;
+    color: #504AFC;
+    user-select: none;
+    background: #FCFCFC;
+    margin-right: 2px;
+}
+
+.nav img {
+    transform: rotate(180deg);
+    position: absolute;
+    /*bottom: 7px;*/
+    /*top: 7px;*/
+    /*left: 7px;*/
+    /*right: 7px;*/
+    width: 12px;
+    height: 12px;
+}
+
+.nav img:hover {
+    opacity: 50%;
+
+}
+
+.nav a:last-child {
+    left: auto;
+    right: 10px;
+}
+
+
+.nav div {
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    text-align: center;
+    user-select: none;
+    text-transform: capitalize;
+
+}
+
+.days {
+    position: relative;
+    top: 14px;
+    /*font-size: 0;*/
+    text-transform: uppercase;
+    background: #FCFCFC;
+}
+
+.days span {
+    width: 28px;
+    height: 10px;
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    padding: 9px 0;
+    position: relative;
+    font-size: 10px;
+    /*height: 48px;*/
+    /*margin: 8px 0;*/
+    /*line-height: 24px;*/
+    /*padding-top: 16px;*/
+}
+
+.label {
+    width: 28px;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    cursor: initial;
+    font-family:" Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    /*margin-top: 8px;*/
+    /*margin-bottom: 8px;*/
+    font-size: 8px;
+    line-height: 11px;
+    /* identical to box height */
+    text-align: center;
+    /* Purple */
+    color: #504AFC;
+    opacity: 0.5;
+}
+
+.active {
+    /*height: 28px;*/
+    /*font-weight: 700;*/
+    /*!*background-color: rgba(182, 112, 244, 0.95);;*!*/
+    border-bottom: 2px solid #504AFC;
+    padding: 30px;
+    /*box-sizing: border-box;*/
+}
+
+.muted {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.between {
+    border-radius: 0;
+    background: rgba(80, 74, 252, 0.2);
+    color: #504AFC;
+}
+
+.start {
+    background: #504AFC;
+    color: #FCFCFC;
+}
+
+.end {
+    background: #504AFC;
+    color: #FCFCFC;
+}
+
+.between:nth-child(7n):after, .start:nth-child(7n):after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    background-color: #504AFC;
+    width: 20px;
+}
+
+.between:nth-child(7n + 1):after, .end:nth-child(7n + 1):after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    background-color: #504AFC;
+    width: 20px;
+}
+
+.start.end:after {
+    display: none;
+}
+
+.buttonsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 238px;
+    width: 408px;
+}
+
+.buttonsDiv img {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.buttonsDiv button {
+    width: 200px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.reset {
+    background: #FCFCFC;
+    border: none;
+    color: #504AFC;
+    flex: none;
+}
+
+.reset:hover {
+    background: #F0EFFF;
+}
+
+.accept {
+    background: #FCFCFC;
+    color: #504AFC;
+    flex: none;
+    border: 1px solid #504AFC;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.accept:hover {
+    background: #504AFC;
+    color: #FCFCFC;
+}
+

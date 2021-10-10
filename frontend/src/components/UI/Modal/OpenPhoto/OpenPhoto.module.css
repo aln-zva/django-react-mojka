@@ -1,0 +1,145 @@
+.openPhoto {
+    width: 1440px;
+    height: 200vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(3px);
+    position: absolute;
+}
+
+.mainBlock {
+    width: 900px;
+    height: 594px;
+    background: #121212;
+    border-radius: 3px;
+    margin-top: 139px;
+    margin-left: 270px;
+    flex: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.photo {
+    height: 500px;
+    width: 867px;
+    margin: 20px 16px 70px 16px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.close {
+    width: 16px;
+    height: 16px;
+    flex: none;
+    margin-top: 142px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.modal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.info {
+    width: 852px;
+    height: 22px;
+    padding: 0 24px;
+    position: relative;
+    top: 538px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 -48px;
+}
+
+.count {
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9B9B9B;
+}
+
+.download {
+    flex: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 89px;
+}
+
+.download a{
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FCFCFC;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.download img {
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    margin-right: 6px;
+}
+
+.rightArrowBlock {
+    /*position: absolute;*/
+    width: 48px;
+    height: 48px;
+    left: 48px;
+    top: 0px;
+    /*border-top: 4px solid #121212;*/
+    /*border-right: 4px solid #121212;*/
+    background: rgba(155, 155, 155, 0.6);
+    border-radius: 3px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    /*padding: 16px 20px;*/
+    flex: none;
+    margin-top: 249px;
+    cursor: pointer;
+}
+
+.rightArrow {
+    border-top: 3px solid #121212;
+    border-right: 3px solid #121212;
+    width: 12px;
+    height: 12px;
+    margin: 16px 19px;
+    transform: rotate(-135deg);
+}
+
+.leftArrowBlock {
+    /*position: absolute;*/
+    width: 48px;
+    height: 48px;
+    /*border-top: 4px solid #121212;*/
+    /*border-right: 4px solid #121212;*/
+    background: rgba(155, 155, 155, 0.6);
+    border-radius: 3px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    /*padding: 16px 20px;*/
+    flex: none;
+    margin-top: 249px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.leftArrow {
+    border-top: 3px solid #121212;
+    border-right: 3px solid #121212;
+    width: 12px;
+    height: 12px;
+    margin: 16px 16px;
+    transform: rotate(45deg);
+}
+
+.leftArrowBlock:hover, .rightArrowBlock:hover {
+    background-color: #FCFCFC;
+}

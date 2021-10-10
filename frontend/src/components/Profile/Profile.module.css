@@ -1,0 +1,29 @@
+.profile {
+    position: absolute;
+    /*top: 3136px;*/
+    height: 1212px;
+    width: 1440px;
+    background-color: #FCFCFC;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: space-between;
+    /*align-content: flex-start;*/
+    flex-direction: row;
+    position: absolute;
+    left: 165px;
+    top: 40px;
+    height: 1058px;
+    width: 1110px;
+}
+
+.profileBlock {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 635px;
+    height: 1058px;
+    top: 40px;
+}

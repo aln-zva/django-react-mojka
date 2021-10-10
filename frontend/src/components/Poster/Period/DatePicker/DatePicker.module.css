@@ -1,0 +1,39 @@
+.datePicker {
+    position: absolute;
+    width: 424px;
+    height: 340px;
+    z-index: 4;
+    top: 64px;
+    left: -264px;
+    background: #FCFCFC;
+    box-shadow: 0 0 40px -20px rgba(107, 95, 95, 0.35);
+}
+
+.choseDatesText {
+    position: absolute;
+    width: 289px;
+    height: 19px;
+    left: 8px;
+    top: 16px;
+
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #121212;
+}
+
+.calendar {
+    /*position: absolute;*/
+    /*top: 51px;*/
+    /*width: 408px;*/
+    /*height: 230px;*/
+    /*left: 8px;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    /*right: 8px;*/
+    /*background: #FCFCFC;*/
+
+}

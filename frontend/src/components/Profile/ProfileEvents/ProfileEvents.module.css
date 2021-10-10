@@ -1,0 +1,55 @@
+.profileEvents {
+    flex: none;
+    width: 641px;
+    height: 685px;
+    background-color: #FCFCFC;
+}
+
+.futureEventText {
+    position: absolute;
+    width: 244px;
+    height: 33px;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #121212;
+}
+
+.userEvents {
+    height: 628px;
+    width: 633px;
+    position: relative;
+    top: 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.userEvents::-webkit-scrollbar {
+    width: 8px;
+    height: auto;
+}
+
+.userEvents::-webkit-scrollbar-track {
+    position: absolute;
+    width: 634px;
+    height: 0;
+    left: 627px;
+    top: 51px;
+
+    border: 8px solid #D3D3D3;
+    border-radius: 8px;
+}
+
+.userEvents::-webkit-scrollbar-thumb {
+    border: 8px solid #9B9B9B;
+    box-sizing: border-box;
+    transform: rotate(-90deg);
+    border-radius: 8px;
+}

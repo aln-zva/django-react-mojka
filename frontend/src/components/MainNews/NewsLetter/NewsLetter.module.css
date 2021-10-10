@@ -1,0 +1,108 @@
+.letter {
+    /*position: absolute;*/
+    /*left: 11.46%;*/
+    /*right: 70.83%;*/
+    /*top: 72.93%;*/
+    /*bottom: 5%;*/
+    width: 255px;
+    height: 104px;
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+/*.block {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    margin-left: 165px;*/
+/*    margin-right: 165px;*/
+/*}*/
+.lineBlock {
+    flex: none;
+    width: 255px;
+    height: 4px;
+}
+
+.text {
+    width: 254px;
+    /*position: relative;*/
+    /*left: 0.39%;*/
+    /*right: 0;*/
+    /*top: 16.35%;*/
+    /*bottom: 0;*/
+    font-family: "Open Sans", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 29px;
+    margin-top: 17px;
+    /* White */
+    flex: none;
+    color: #FCFCFC;
+}
+
+.line {
+    /*position: absolute;*/
+    /*left: 0.39%;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    /*bottom: 100%;*/
+    width: 250px;
+    border: 2px solid #FCFCFC;
+    height: 0;
+    background: #FCFCFC;
+}
+
+.line2 {
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*right: 52.16%;*/
+    /*top: 0;*/
+    /*bottom: 100%;*/
+    border: 2px solid #8F82FF;
+    background: #8F82FF;
+    margin-top: -4px;
+    width: 122px;
+
+}
+
+.line_blur {
+    /*position: absolute;*/
+    width: 122px;
+    /*left: 0;*/
+    /*right: 52.16%;*/
+    /*top: 0;*/
+    /*bottom: 100%;*/
+    background: #504AFC;
+    border: 4px solid #504AFC;
+    filter: blur(20px);
+    -moz-filter:blur(20px);
+    -o-filter:blur(20px);
+    -webkit-filter:blur(20px);
+}
+
+.letterNotActive {
+    width: 255px;
+    height: 104px;
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.notActiveLine {
+    /*position: absolute;*/
+    /*left: 0.39%;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    /*bottom: 100%;*/
+    width: 250px;
+    border: 2px solid #FCFCFC;
+    height: 0;
+    background: #FCFCFC;
+    opacity: 0.6;
+}

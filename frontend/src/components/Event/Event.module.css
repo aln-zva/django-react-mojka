@@ -1,0 +1,112 @@
+.event {
+    position: absolute;
+    /*top: 1915px;*/
+    width: 1440px;
+    height: 1226px;
+    background-color: #FCFCFC;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    width: 207px;
+    height: 19px;
+    left: 165px;
+    top: 31px;
+}
+
+.page {
+    position: static;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #504AFC;
+    flex: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.onPage {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #121212;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.3;
+
+    flex: none;
+}
+
+.line {
+    width: 24px;
+    height: 1px;
+    background-color: #504AFC;
+    flex: none;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    /*align-content: flex-start;*/
+    flex-direction: row;
+    position: absolute;
+    top: 82px;
+    left: 165px;
+}
+
+.monthEvents {
+    position: absolute;
+    top: 741px;
+    left: 165px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #121212;
+}
+
+.eventCardsBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: absolute;
+    top: 798px;
+    left: 104px;
+}
+
+.left, .right {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    margin-top: 154px;
+    margin-right: 38px;
+    cursor: pointer;
+}
+
+.eventCards {
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 1062px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.eventCards::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

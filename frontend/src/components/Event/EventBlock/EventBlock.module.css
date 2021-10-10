@@ -1,0 +1,162 @@
+.eventBlock {
+    /*position: absolute;*/
+    /*left: 165px;*/
+    /*top: 32px;*/
+    flex: none;
+    width: 475px;
+    height: 661px;
+}
+
+.hashtag {
+    position: absolute;
+    width: 133px;
+    height: 19px;
+    text-align: center;
+    padding: 8px 16px;
+
+    background: #F0EFFF;
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #504AFC;
+}
+
+.name {
+    position: absolute;
+    width: 445px;
+    height: 36px;
+    top: 51px;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+
+    color: #121212;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: absolute;
+    width: 350px;
+    height: 24px;
+    top: 111px;
+}
+
+.place {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    width: 236px;
+    height: 24px;
+    top: 151px;
+}
+
+.date img, .place img {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    margin-right: 11px;
+}
+
+.dot {
+    margin: 5px 8px 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    flex: none;
+    background: #CCCCCC;
+}
+
+.textBlock {
+    position: absolute;
+    width: 445px;
+    height: 192px;
+    top: 199px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #121212;
+}
+
+.eventBlock button {
+    width: 255px;
+    height: 54px;
+    cursor: pointer;
+}
+
+.eventButton {
+    position: absolute;
+    top: 415px;
+
+    background: #504AFC;
+    border-radius: 5px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FCFCFC;
+}
+
+.eventButton:hover {
+    background: #302ADB;
+}
+
+.planButton {
+    position: absolute;
+    top: 477px;
+
+    background: #F9F9F9;
+    border-radius: 5px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #504AFC;
+}
+
+.planButton:hover {
+    background: #F0EFFF;
+}
+
+.eventParticipants {
+    margin-left: 8px;
+    position: absolute;
+    width: 188px;
+    height: 44px;
+    top: 585px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.participantsText {
+    position: absolute;
+    width: 188px;
+    height: 44px;
+    top: 549px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #9B9B9B;
+}

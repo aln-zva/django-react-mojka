@@ -1,0 +1,47 @@
+.poster {
+    position: absolute;
+    top: 817px;
+    width: 1110px;
+    height: 1113px;
+    flex: none;
+    background-color: #FCFCFC;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 165px;
+}
+
+.poster_head {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #504AFC;
+    mix-blend-mode: normal;
+    opacity: 0.85;
+    /*position: absolute;*/
+    /*top: 64px;*/
+    /*left: 165px;*/
+    width: 101px;
+    height: 49px;
+    margin-top: 64px;
+}
+
+.posterFilterBlock {
+    flex: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.typeMenu {
+    position: absolute;
+    top: 193px;
+    left: 925px;
+}
+
+.pagination {
+    margin-left: 501px;
+    flex: none;
+}

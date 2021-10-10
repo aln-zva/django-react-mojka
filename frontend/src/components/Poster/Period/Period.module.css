@@ -1,0 +1,74 @@
+.period {
+    position: absolute;
+    /*top: 145px;*/
+    left: 1115px;
+    margin-top: 32px;
+}
+
+.periodButton {
+    width: 160px;
+    height: 48px;
+    border: 1px solid #F0EFFF;
+    border-radius: 2px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    background: #FCFCFC;
+    color: #121212;
+    cursor: pointer;
+}
+
+.clickedButton {
+    width: 160px;
+    height: 48px;
+    border: 1px solid #F0EFFF;
+    border-radius: 2px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    background: #F0EFFF;
+    color: #121212;
+    cursor: pointer;
+}
+/*.period button:focus {*/
+/*    background-color: #F0EFFF;*/
+/*    pointer-events: none;*/
+/*}*/
+
+.periodButton:hover {
+    background-color: #F0EFFF;
+}
+
+.datePicker {
+    position: absolute;
+    width: 424px;
+    height: 340px;
+    z-index: 4;
+    top: 64px;
+    left: -264px;
+    background: #FCFCFC;
+    box-shadow: 0 0 40px -20px rgba(107, 95, 95, 0.35);
+}
+
+.choseDatesText {
+    position: absolute;
+    width: 289px;
+    height: 19px;
+    left: 8px;
+    top: 16px;
+
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #121212;
+}

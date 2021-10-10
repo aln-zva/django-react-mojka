@@ -1,0 +1,45 @@
+.layoutMain {
+    background-color: lightslategray;
+    /*display: flex;*/
+    /*min-height: 100vh;*/
+    /*flex-direction: column;*/
+    /*position: relative;*/
+    /*min-height: 100vh;*/
+    /*width: 1440px;*/
+    height: 1834px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.layoutProfile {
+    background-color: lightslategray;
+    height: 1212px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.layoutEvent {
+    background-color: lightslategray;
+    height: 1227px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.layoutAlbum {
+    background-color: lightslategray;
+    height: 1212px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}

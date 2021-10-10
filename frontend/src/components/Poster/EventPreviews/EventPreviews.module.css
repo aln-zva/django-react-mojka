@@ -1,0 +1,15 @@
+.eventPreviews {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    /*flex-direction: row;*/
+    /*position: absolute;*/
+    /*top: 273px;*/
+    /*left: 165px;*/
+    width: 1140px;
+    /*height: 744px;*/
+    flex: none;
+    margin-top: 16px;
+    margin-bottom: -6px;
+}

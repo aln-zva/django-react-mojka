@@ -1,0 +1,105 @@
+.photoAlbum {
+    position: absolute;
+    /*top: 1915px;*/
+    width: 1120px;
+    height: 1212px;
+    background-color: #FCFCFC;
+    padding: 0 155px 0 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.navigation {
+    flex: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 52px;
+    /*position: absolute;*/
+    width: 207px;
+    height: 19px;
+    /*left: 165px;*/
+    /*top: 52px;*/
+}
+
+.page {
+    position: static;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #504AFC;
+    flex: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.page:hover {
+    border-bottom: #504AFC 1px solid;
+    box-sizing: border-box;
+}
+
+.line {
+    width: 24px;
+    height: 1px;
+    background-color: #504AFC;
+    flex: none;
+    margin: 0 16px;
+}
+
+.onPage {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #121212;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.3;
+
+    flex: none;
+}
+
+.name {
+    flex: none;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+    color: #121212;
+    margin-top: 32px;
+    /*position: absolute;*/
+    /*top: 84px;*/
+}
+
+.photos {
+    /*position: absolute;*/
+    /*top: 160px;*/
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex: none;
+    margin-top: 40px;
+}
+
+.photos img {
+    width: 272px;
+    height: 200px;
+    margin: 0 8px 8px 0;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.pagination {
+    flex: none;
+    margin-top: 40px;
+    /*position: absolute;*/
+    /*top: 1024px;*/
+}

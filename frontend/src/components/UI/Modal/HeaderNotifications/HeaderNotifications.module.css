@@ -1,0 +1,38 @@
+.notificationsBlock {
+    position: relative;
+    width: 400px;
+    height: 335px;
+    left: 755px;
+    top: 8px;
+    background: #FCFCFC;
+    box-shadow: 0 10px 40px rgba(33, 33, 33, 0.1);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 8px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.notificationsBlock::-webkit-scrollbar {
+    width: 4px;
+    height: auto;
+}
+
+.notificationsBlock::-webkit-scrollbar-track {
+    position: absolute;
+    width: 634px;
+    height: 0;
+    left: 627px;
+    top: 51px;
+
+    border: 8px solid #D3D3D3;
+    border-radius: 8px;
+}
+
+.notificationsBlock::-webkit-scrollbar-thumb {
+    border: 8px solid #9B9B9B;
+    box-sizing: border-box;
+    transform: rotate(-90deg);
+    border-radius: 8px;
+}

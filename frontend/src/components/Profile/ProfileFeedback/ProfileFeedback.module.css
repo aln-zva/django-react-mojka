@@ -1,0 +1,19 @@
+.profileFeedback {
+    flex: none;
+    width: 633px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.profileFeedback::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
+
+

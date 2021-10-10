@@ -1,0 +1,99 @@
+.eventCard {
+    width: 620px;
+    height: 127px;
+    background: #FFFFFF;
+    box-shadow: 0 5px 40px rgba(174, 172, 222, 0.1);
+    flex: none;
+    margin-bottom: 16px;
+}
+
+.eventCard:hover {
+    background: #F0EFFF;
+}
+
+.name {
+    position: relative;
+    width: auto;
+    height: 25px;
+    left: 24px;
+    top: 24px;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;
+    width: auto;
+    height: 24px;
+    top: 28px;
+    left: 24px;
+    color: #9B9B9B;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.place {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: auto;
+    height: 24px;
+    top: 33px;
+    left: 24px;
+
+    color: #9B9B9B;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.date img, .place img {
+    width: 16px;
+    height: 16px;
+    flex: none;
+    margin-right: 8px;
+}
+
+.dot {
+    margin: 5px 8px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    flex: none;
+    background: #CCCCCC;
+}
+
+.qr {
+
+}
+
+.imagePlace {
+    width: 24px;
+    height: 16px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:visited {
+    color: inherit;
+}

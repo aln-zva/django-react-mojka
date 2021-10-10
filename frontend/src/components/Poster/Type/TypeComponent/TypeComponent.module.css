@@ -1,0 +1,54 @@
+.type {
+    width: 232px;
+    height: 54px;
+    flex: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 16px;
+}
+
+.checkbox {
+    /*position: absolute;*/
+    width: 12px;
+    height: 12px;
+    /*left: 16px;*/
+    /*top: 21px;*/
+    flex: none;
+    background: #F5F5F5;
+    border-radius: 1px;
+    margin-right: 16px;
+    margin-top: 29px;
+    padding: 0 0;
+    border: none;
+    cursor: pointer;
+}
+
+.typeName {
+    flex: none;
+    margin-top: 24px;
+    width: 155px;
+    height: 22px;
+
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #121212;
+}
+
+.checkboxClicked {
+    background-image: url("../../../../assets/chechkbox.png");
+    width: 12px;
+    height: 12px;
+    /*left: 16px;*/
+    /*top: 21px;*/
+    flex: none;
+    border-radius: 1px;
+    margin-right: 16px;
+    margin-top: 29px;
+    padding: 0 0;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,109 @@
+.login {
+    position: relative;
+    left: 640px;
+    top: 0px;
+    width: 800px;
+    height: 446px;
+    background: #FCFCFC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 5;
+}
+
+.image {
+    width: 361px;
+    height: 241px;
+    flex: none;
+    margin-top: 120px;
+    margin-left: 31px;
+}
+
+.form {
+    flex: none;
+    margin-top: 73px;
+    margin-left: 28px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formText {
+    width: 340px;
+    height: 54px;
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #121212;
+}
+
+
+.form input[type="text"] {
+    width: 322px;
+    height: 54px;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 5px;
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    border: none;
+    outline: none;
+    background: #F4F4F4;
+    font-weight: normal;
+    padding-left: 16px;
+    color: #121212;
+    opacity: 0.6;
+    flex: none;
+}
+
+.form input[type="submit"] {
+    width: 340px;
+    height: 54px;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 5px;
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    border: none;
+    outline: none;
+    background: #504AFC;
+    font-weight: 600;
+    color: #FCFCFC;
+    flex: none;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background: #302ADB;
+    color: #FCFCFC;
+}
+
+.form input[type="text"]:focus {
+    border: none;
+    outline: none;
+}
+
+.singInButton {
+    width: 340px;
+    height: 54px;
+    background: #FCFCFC;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #504AFC;
+    flex: none;
+    border: none;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.singInButton:hover {
+    background: #F0EFFF;
+}

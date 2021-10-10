@@ -1,0 +1,189 @@
+.calendar {
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*margin-top: -225px;*/
+    /*margin-left: -195px;*/
+    width: 380px;
+    height: 396px;
+    /*padding: 15px;*/
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    position: absolute;
+    top: 614px;
+    left: 32px;
+    background: #F2F3F8;
+}
+
+.nav {
+    /*margin: -15px -15px 15px;*/
+    /*padding: 0 15px;*/
+    background-color: #504AFC;;
+    color: #fff;
+    height: 56px;
+    position: relative;
+}
+
+.nav a {
+    position: absolute;
+    cursor: pointer;
+    left: 12px;
+    font-size: 32px;
+    line-height: 1;
+    top: 12px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.6);
+    user-select: none;
+    background: #302ADB;
+}
+
+.nav img {
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 7px;
+    top: 7px;
+    left: 7px;
+    right: 7px;
+    width: 18px;
+    height: 18px;
+}
+
+.nav img:hover {
+    opacity: 50%;
+
+}
+
+.nav a:last-child {
+     left: auto;
+     right: 10px;
+ }
+
+
+.nav div {
+    position: absolute;
+    left: 40px;
+    top: 17px;
+    right: 40px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    user-select: none;
+    text-transform: capitalize;
+
+}
+
+.days {
+    font-size: 0;
+    text-transform: uppercase;
+    background: #F2F3F8;
+}
+
+.days span {
+    width: 14.28571%;
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    padding: 11px 0;
+    position: relative;
+    font-size: 16px;
+    /*height: 48px;*/
+    /*margin: 8px 0;*/
+    line-height: 24px;
+    /*padding-top: 16px;*/
+}
+
+
+.label {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: initial;
+    font-family:" Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 8px;
+    /*margin-bottom: 8px;*/
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+
+    /* Purple */
+
+    color: #504AFC;
+ }
+
+.active {
+    font-weight: 700;
+     /*background-color: rgba(182, 112, 244, 0.95);;*/
+    border: 2px solid #504AFC;
+    box-sizing: border-box;
+ }
+
+.muted {
+     color: rgba(0, 0, 0, 0.3);
+ }
+
+.between {
+     border-radius: 0;
+ }
+
+.start, .between, .end {
+    background-color: #504AFC;
+    color: #fff;
+}
+
+.start {
+     border-radius: 12px 0 0 12px;
+ }
+
+.end {
+     border-radius: 0 12px 12px 0;
+ }
+
+.start.end {
+     border-radius: 12px;
+}
+
+.between:nth-child(7n):after, .start:nth-child(7n):after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    background-color: #504AFC;
+    width: 20px;
+}
+
+.between:nth-child(7n + 1):after, .end:nth-child(7n + 1):after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    background-color: #504AFC;
+    width: 20px;
+}
+
+.start.end:after {
+     display: none;
+ }
+
+.selectedDay div {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #FF4141;
+    position: absolute;
+    left: 23px;
+}
+
+

@@ -1,0 +1,67 @@
+.singIn {
+    position: relative;
+    left: 835px;
+    width: 440px;
+    height: 400px;
+    z-index: 5;
+
+    background: #FCFCFC;
+    border-radius: 10px;
+}
+
+.question {
+    position: absolute;
+    width: 270px;
+    height: 33px;
+    left: 85px;
+    top: 217px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.answers {
+    width: 248px;
+    height: 54px;
+    position: absolute;
+    top: 282px;
+    left: 96px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.answers button {
+    width: 120px;
+    height: 54px;
+    flex: none;
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+    border-radius: 5px;
+}
+
+.yesAnswer {
+    background: #504AFC;
+    color: #FCFCFC;
+}
+
+.yesAnswer:hover {
+    background: #302ADB;
+    color: #FCFCFC;
+}
+
+.noAnswer {
+    background: #F4F4F4;
+    color: #504AFC;
+}
+
+.noAnswer:hover {
+    background: #F0EFFF;
+}

@@ -1,0 +1,31 @@
+.infoPart {
+    /* identical to box height */
+    flex: none;
+    display: flex;
+    justify-content: flex-start;
+    /* Black */
+    height: 38px;
+    width: 343px;
+    color: #121212;
+}
+
+.infoPart img {
+    width: 30px;
+    height: 30px;
+    flex: none;
+    /*margin-top: 8px;*/
+}
+
+.infoPart div {
+    font-family:" Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    flex: none;
+    margin-left: 18px;
+    height: 38px;
+    /*margin-top: 4px;*/
+    vertical-align: center;
+}
+

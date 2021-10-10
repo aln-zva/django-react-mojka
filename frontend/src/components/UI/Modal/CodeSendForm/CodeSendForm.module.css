@@ -1,0 +1,88 @@
+.codeSent {
+    position: relative;
+    left: 835px;
+    width: 440px;
+    height: 400px;
+    z-index: 5;
+    background: #FCFCFC;
+}
+
+.codeSentField {
+    height: 258px;
+    width: 270px;
+    position: absolute;
+    left: 85px;
+    top: 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.codeSentInfo {
+    width: 270px;
+    height: 48px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+}
+
+.codeSentField input[type="text"] {
+    width: 250px;
+    height: 54px;
+    background: #F4F4F4;
+    border-radius: 5px;
+    border: none;
+    padding-left: 16px;
+    flex: none;
+}
+
+.codeSentField input[type="text"]:focus {
+    border: none;
+    outline: none;
+}
+
+.codeSentField input[type="submit"] {
+    width: 267px;
+    height: 54px;
+    margin-top: -24px;
+    flex: none;
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+    border-radius: 5px;
+    background: #504AFC;
+    color: #FCFCFC;
+}
+
+.codeSentField input[type="submit"]:hover {
+    background: #302ADB;
+    color: #FCFCFC;
+}
+
+.codeSentBack {
+    width: 267px;
+    height: 54px;
+    margin-top: -24px;
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+    border-radius: 5px;
+    background: #F4F4F4;
+    color: #504AFC;
+    flex: none;
+}
+
+.codeSentBack:hover {
+    background: #F0EFFF;
+}

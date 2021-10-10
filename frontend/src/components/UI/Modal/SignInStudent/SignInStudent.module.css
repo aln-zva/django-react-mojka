@@ -1,0 +1,119 @@
+.signInStudent {
+    position: relative;
+    left: 795px;
+    width: 480px;
+    height: 485px;
+    background: #FCFCFC;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+.accountCreation {
+    position: absolute;
+    left: 70px;
+    top: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 289px;
+    width: 340px;
+}
+
+.createAccountText {
+    width: 340px;
+    height: 27px;
+    flex: none;
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    /* Black */
+
+    color: #121212;
+}
+
+.accountCreation input[type="text"] {
+    flex: none;
+    height: 54px;
+    width: 322px;
+    background: #F4F4F4;
+    border-radius: 5px;
+    border: none;
+    padding-left: 16px;
+}
+
+.accountCreation input[type="text"]:focus {
+    border: none;
+    outline: none;
+}
+.accountCreation input[type="password"] {
+    flex: none;
+    height: 54px;
+    width: 322px;
+    background: #F4F4F4;
+    border-radius: 5px;
+    border: none;
+    padding-left: 16px;
+}
+
+.accountCreation input[type="password"]:focus {
+    border: none;
+    outline: none;
+}
+
+.signInButton {
+    background: #504AFC;
+    border-radius: 5px;
+    flex: none;
+    height: 54px;
+    width: 340px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    border: none;
+    outline: none;
+    color: #FCFCFC;
+    cursor: pointer;
+}
+
+.signInButton:hover {
+    background: #302ADB;
+    color: #FCFCFC;
+}
+
+.logInButton {
+    width: 340px;
+    height: 54px;
+    background: #FCFCFC;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #504AFC;
+    flex: none;
+    border: none;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.logInButton:hover {
+    background: #F0EFFF;
+}
+
+.wifiInfo {
+    width: 340px;
+    height: 44px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #121212;
+    opacity: 0.5;
+}

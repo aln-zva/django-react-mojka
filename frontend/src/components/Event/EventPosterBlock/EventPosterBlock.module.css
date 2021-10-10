@@ -1,0 +1,142 @@
+.eventPoster {
+    /*position: relative;*/
+    /*top: 64px;*/
+    border-radius: 5px;
+    width: 635px;
+    height: 623px;
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.mainPhoto {
+    background: rgba(196, 196, 196, 0.2);
+    border-radius: 5px;
+    width: 635px;
+    height: 469px;
+}
+
+.eventPosterImg {
+    position: relative;
+    width: 336px;
+    height: 119px;
+    left: 149px;
+    top: 175px;
+}
+
+.gallery {
+    width: 635px;
+    height: 82px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /*position: relative;*/
+    /*top: 350px;*/
+    margin-top: 8px;
+}
+
+.gallery::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.eventPhotoMain {
+    object-fit: cover;
+    width: 635px;
+    height: 469px;
+}
+
+.galleryImg {
+    width: 172px;
+    height: 82px;
+    flex: none;
+    margin-right: 8px;
+    border-radius: 3px;
+    opacity: 0.5;
+    object-fit: cover;
+    cursor: pointer;
+    /*background: linear-gradient(0deg, rgba(252, 252, 252, 0.5), rgba(252, 252, 252, 0.5))*/
+}
+
+.chosenImg {
+    width: 172px;
+    height: 82px;
+    flex: none;
+    margin-right: 8px;
+    border-radius: 3px;
+    opacity: 1;
+    object-fit: cover;
+}
+
+.block {
+    width: 172px;
+}
+
+.inner {
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    /*position: relative;*/
+    /*top: -4px;*/
+    /*left: -4px*/
+}
+
+.managePhotos {
+    height: 48px;
+    width: 635px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: none;
+    margin-top: 16px;
+}
+
+.arrows {
+    width: 120px;
+    height: 48px;
+    flex: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.arrows img {
+    transform: rotate(180deg);
+    width: 48px;
+    height: 48px;
+    opacity: 0.7;
+}
+
+.arrows img:hover {
+    opacity: 1;
+}
+
+.openAlbum {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #9B9B9B;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.openAlbum img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+
+}
+
+.openAlbum:hover {
+    color: #504AFC;
+}
+

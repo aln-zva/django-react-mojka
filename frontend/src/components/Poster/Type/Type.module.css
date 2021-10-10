@@ -1,0 +1,86 @@
+.type {
+    position: absolute;
+    /*top: 115px;*/
+    left: 925px;
+    z-index: 3;
+    margin-top: 32px;
+}
+
+.typeButton {
+    width: 160px;
+    height: 48px;
+    border: 1px solid #F0EFFF;
+    border-radius: 2px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    background: #FCFCFC;
+    color: #121212;
+    cursor: pointer;
+}
+
+/*.type button:focus {*/
+/*    background-color: #F0EFFF;*/
+/*    pointer-events: none;*/
+/*}*/
+
+.typeButton:hover {
+    background-color: #F0EFFF;
+}
+
+.clicked {
+    width: 160px;
+    height: 48px;
+    border: 1px solid #F0EFFF;
+    border-radius: 2px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    background: #F0EFFF;
+    color: #121212;
+    cursor: pointer;
+}
+
+.typeMenu {
+    /*position: absolute;*/
+    width: 248px;
+    height: 342px;
+    background: #FCFCFC;
+    box-shadow: 0 0 40px -20px rgba(107, 95, 95, 0.35);
+    z-index: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.accept {
+    width: 216px;
+    height: 40px;
+    flex: none;
+    margin: 8px 16px 16px;
+    border: 1px solid #504AFC;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #504AFC;
+    background: #FCFCFC;
+    cursor: pointer;
+}
+
+.accept:hover {
+    background: #504AFC;
+    color: #FCFCFC;
+}
+

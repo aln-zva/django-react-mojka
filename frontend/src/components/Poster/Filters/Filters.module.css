@@ -1,0 +1,12 @@
+.filters {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    /*position: absolute;*/
+    /*top: 209px;*/
+    left: 165px;
+    width: 1275px;
+    /*display: table-row;*/
+    margin-top: 16px;
+    height: 48px;
+}

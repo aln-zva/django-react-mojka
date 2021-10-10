@@ -1,0 +1,129 @@
+.eventCard {
+    width: 350px;
+    height: 342px;
+    background: #FCFCFC;
+    border-radius: 5px;
+    /*position: absolute;*/
+}
+
+.main {
+    width: 380px;
+    height: 372px;
+    flex: none;
+}
+
+.eventCardImg {
+    /*background-image: url("../../../../assets/EventCard1.png");*/
+    position: relative;
+    width: 350px;
+    height: 166px;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+
+.hashtag {
+    position: relative;
+    width: 150px;
+    height: 19px;
+    left: 16px;
+    top: 14px;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #504AFC;
+}
+
+.name {
+    position: relative;
+    width: 318px;
+    height: 25px;
+    left: 16px;
+    top: 22px;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+}
+
+.timestamp {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    width: 318px;
+    height: 22px;
+    left: 16px;
+    top: 31px;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #121212;
+
+    opacity: 0.5;
+}
+
+.date {
+    flex: none;
+}
+
+.time {
+    flex: none
+}
+
+.eventCardButton {
+    position: relative;
+    width: 318px;
+    height: 46px;
+    left: 16px;
+    top: 63px;
+    background: #FCFCFC;
+    border: 1px solid rgba(0, 133, 255, 0.1);
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #504AFC;
+    cursor: pointer;
+    padding: 12px 133px;
+    text-decoration: none;
+}
+
+.eventCardButton:visited {
+    color: #504AFC;
+}
+
+
+.eventCardButton:hover {
+    background: #F0EFFF;
+}
+
+.block {
+    width: 200px;
+    position: absolute;
+    top: -350px;
+}
+
+.inner {
+    width: 100%;
+    padding-top: 100%;
+    background-color: transparent;
+    position: relative;
+    /*top: -4px;*/
+    /*left: -4px*/
+}
